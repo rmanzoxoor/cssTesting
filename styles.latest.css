@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: Roboto, sans-serif;
+  font-family: 'Helvetica', sans-serif;                             
   font-weight: 400;
   line-height: 16px;
   -webkit-font-smoothing: antialiased;
@@ -90,10 +90,9 @@ iframe {
   justify-content: center;
 }
 .jampp__Header__Logo {
-  background-size: cover;
-  width: 90px;
-  height: 30px;
-  align-items: center;
+  width: 100px;
+  position: absolute; 
+  bottom: 12px;
 }
 .jampp__Body__Content {
   opacity: 0;
@@ -107,20 +106,37 @@ iframe {
   padding: 0px;
   overflow: auto;
 }
-.jampp__Body__Content__Footer {
-  position: fixed;
-  bottom: 30px;
-  left: 30px;
-  right: 30px;
+.jampp__Device__CTA {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  height: 100px;
+  gap: 8px;
   align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  align-items: flex-end;
 }
-.jampp__Body__Content__Footer__Logo {
-  background: url(https://s3.amazonaws.com/creatives.jampp.com/gallery/static/jampp-white.svg);
-  background-size: cover;
-  width: 90px;
-  height: 30px;
+.jampp__Device__CTA__Ios {
+  width: 53px;
+  height: 28px;
+}
+.jampp__Device__CTA__Android {
+  width: 74px;
+  height: 28px;
+}
+.jampp__Active__CTA {
+    background: #FFFFFF;
+    border: 2px solid #1261E4;
+    color: #1261E4;
+    border-radius: 56px;
+}
+.jampp__Inactive__CTA {
+  background: #FBFBFD;
+  border: 2px dashed #9A9EA9;
+  color: #9A9EA9;
+  border-radius: 56px;
 }
 .jampp__Carousel {
   height: 100%;
