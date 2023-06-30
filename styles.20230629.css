@@ -401,7 +401,5 @@ iframe {
   min-width: 530px;
 }
 .jampp__Carousel__With__More__Than__One__Device {
-  &:after {
-    min-width: 1240px;
-  }
+  min-width: 1240px;
 }
