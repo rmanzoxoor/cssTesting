@@ -1,9 +1,6 @@
 html,
 body,
 #jampp-app,
-[data-reactroot] {
-  height: 100%;
-}
 body {
   margin: 0;
   padding: 0;
