@@ -78,7 +78,7 @@ iframe {
 .jampp__Preview {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   gap: 5px;
 }
 .jampp__Preview__Title {
@@ -88,6 +88,8 @@ iframe {
   font-size: 16px;
   line-height: 18px;
   color: #444444;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .jampp__Preview__Tooltip .jampp__Preview__Tooltiptext {
   font-family: 'Arimo';
