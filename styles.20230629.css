@@ -175,13 +175,6 @@ iframe {
   display: flex;
   max-width: 100%;
 }
-.jampp__Device__Skeleton__Landscape {
-  position: absolute;
-  transform: rotate(-90deg);
-  top: 12%;
-  right: 6.2%;
-  z-index: 1;
-}
 .jampp__Square__Ios__Device__Background {
   position: absolute; 
   width: 222px;
