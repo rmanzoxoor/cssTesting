@@ -55,14 +55,12 @@ iframe {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70px;
   align-items: center;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  margin-top: 75px;
-  margin-bottom: 52px;
+  margin-top: 60px;
 }
 .jampp__Carousel__Container {
   min-width: none;
@@ -129,6 +127,7 @@ iframe {
 .jampp__CTA__Buttons {
   display: flex;
   margin-top: 19px;
+  margin-bottom: 19px;
   gap: 8px;
 }
 .jampp__Device__CTA__Ios {
