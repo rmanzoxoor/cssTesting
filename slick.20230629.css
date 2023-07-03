@@ -2,78 +2,43 @@
   margin: 10px;
   outline: none;
 }
-.slick-slide img {
-  width: 100%;
-  border: 2px solid #fff;
-  margin-right: 20px;
+.slick-arrow {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
 }
-.slick-slider {
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-touch-callout: none;
-  -khtml-user-select: none;
-  -ms-touch-action: pan-y;
-  touch-action: pan-y;
-  -webkit-tap-highlight-color: transparent;
-
-  > .slick-arrow {
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 4px;
-    font-family: "Font Awesome 5 Free";
-    font-style: normal;
-
-    &:before {
-      color: #444444;
-    }
-
-    &:hover {
-      background: #fbfbfd;
-    }
-
-    &.slick-prev {
-      left: 10;
-      justify-items: center;
-      justify-content: center;
-
-      &:before {
-        content: "<";
-        width: 20px;
-        height: 20px;
-        font-family: "Font Awesome 5 Free";
-        font-style: normal;
-        font-weight: 900;
-        font-size: 16px;
-        line-height: 20px;
-      }
-    }
-
-    &.slick-next {
-      right: 10;
-
-      &:before {
-        content: ">";
-        width: 20px;
-        height: 20px;
-        font-family: "Font Awesome 5 Free";
-        font-style: normal;
-        font-weight: 900;
-        font-size: 16px;
-        line-height: 20px;
-      }
-    }
-
-    &.slick-disabled {
-      display: none;
-    }
-  }
+.slick-arrow:before {
+  color: #444;
+}
+.slick-arrow:hover {
+  background: #fbfbfd;
+}
+.slick-arrow.slick-prev:before {
+  content: "\f053";
+  width: 20px;
+  height: 20px;
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+}
+.slick-arrow.slick-next:before {
+  content: "\f054";
+  width: 20px;
+  height: 20px;
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+} 
+.slick-arrow.slick-disabled:before {
+  display: none;
 }
