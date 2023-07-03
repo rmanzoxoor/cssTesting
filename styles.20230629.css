@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: 'Helvetica', sans-serif;                             
+  font-family: 'Arimo', sans-serif;                             
   font-weight: 400;
   line-height: 16px;
   -webkit-font-smoothing: antialiased;
@@ -83,7 +83,7 @@ iframe {
   gap: 5px;
 }
 .jampp__Preview__Title {
-  font-family: 'Helvetica';
+  font-family: 'Arimo';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -91,7 +91,7 @@ iframe {
   color: #444444;
 }
 .jampp__Preview__Tooltip .jampp__Preview__Tooltiptext {
-  font-family: 'Helvetica';
+  font-family: 'Arimo';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -246,7 +246,7 @@ iframe {
 }
 .jampp__Ad__Description {
   width: 133px;
-  font-family: 'Helvetica';
+  font-family: 'Arimo';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -262,7 +262,7 @@ iframe {
 .jampp__Row__Description {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Helvetica';
+  font-family: 'Arimo';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -270,7 +270,7 @@ iframe {
 }
 .jampp__Reload__Ad__Frame {
   color: #1261E4;
-  font-family: 'Helvetica';
+  font-family: 'Arimo';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
