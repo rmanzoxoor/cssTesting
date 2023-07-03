@@ -169,7 +169,7 @@ iframe {
 .jampp__Device {
   position: relative;
 }
-.jampp__Device__Orientation__Landscape {
+.jampp__Device__Orientation--landscape {
     transform: rotate(-90deg);
 }
 .jampp__Device__Skeleton {
