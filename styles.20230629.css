@@ -381,10 +381,6 @@ iframe {
   -ms-transform: scale(0.41);
   -webkit-transform: scale(0.41);
 }
-.jampp__Iframe__Center {
-  top: 10%;
-  left: 6.7%;
-}
 .jampp__Carousel__With__One__Device {
   display: flex;
   justify-content: center;
