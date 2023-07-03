@@ -63,14 +63,8 @@ iframe {
   margin-top: 60px;
 }
 .jampp__Carousel__Container {
-  min-width: none;
   display: flex;
   width: 100%;
-  justify-content: center;
-}
-.jampp__Carousel__Config {
-  max-width: 1240px;
-  display: flex;
   justify-content: center;
 }
 .jampp__Preview {
@@ -153,11 +147,12 @@ iframe {
   color: #9A9EA9;
   border-radius: 56px;
 }
-.jampp__Carousel{
+.jampp__Carousel {
   margin-top: 25px;
   margin-bottom: 60px;
   margin-left: 100px;
   margin-right: 100px;
+  max-width: 1240px;
 }
 .jampp__Slick__Frame__Container {
   display: flex;
