@@ -36,9 +36,8 @@ iframe {
   justify-content: center;
 }
 .jampp__Header__Logo {
-  width: 100px;
-  position: absolute; 
-  bottom: 12px;
+  width: 123px;
+  height: 41px;
 }
 .jampp__Body__Content {
   opacity: 0;
