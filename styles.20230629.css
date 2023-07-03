@@ -76,7 +76,6 @@ iframe {
 .jampp__Preview {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
   gap: 5px;
 }
 .jampp__Preview__Title {
@@ -105,7 +104,7 @@ iframe {
   border-radius: 4px;
   align-items: center;
   vertical-align: middle;
-  top: 65px;
+  top: 22px;
   left: 42%;
   position: absolute;
   z-index: 1;
