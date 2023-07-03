@@ -393,3 +393,6 @@ iframe {
 .jampp__Carousel__With__More__Than__One__Device {
   min-width: 1240px;
 }
+.jampp__Remove__Element {
+  display: none;
+}
