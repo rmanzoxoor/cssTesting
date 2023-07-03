@@ -279,11 +279,10 @@ iframe {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-
-  &:hover {
-    color: #0342a7;
-    cursor: pointer;
-  }
+}
+.jampp__Reload__Ad__Frame:hover {
+  color: #0342a7;
+  cursor: pointer;
 }
 .jampp__Reload__Frame__Icon {
   width: 12px;
