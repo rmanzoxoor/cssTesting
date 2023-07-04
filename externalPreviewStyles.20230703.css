@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: "Arimo", sans-serif;
+  font-family: 'Arimo', sans-serif;
   font-weight: 400;
   line-height: 16px;
   -webkit-font-smoothing: antialiased;
@@ -73,7 +73,7 @@ iframe {
   gap: 5px;
 }
 .jampp__Preview__Title {
-  font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -83,7 +83,7 @@ iframe {
   margin-bottom: 0;
 }
 .jampp__Preview__Tooltip .jampp__Preview__Tooltiptext {
-  font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -109,7 +109,7 @@ iframe {
 .jampp__Preview__Info__Icon {
   width: 12px;
   height: 16px;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
   font-size: 11.5px;
@@ -244,7 +244,7 @@ iframe {
 }
 .jampp__Ad__Description {
   width: 133px;
-  font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -260,7 +260,7 @@ iframe {
 .jampp__Row__Description {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -268,7 +268,7 @@ iframe {
 }
 .jampp__Reload__Ad__Frame {
   color: #1261e4;
-  font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -281,7 +281,7 @@ iframe {
 .jampp__Reload__Frame__Icon {
   width: 12px;
   height: 16px;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
   cursor: pointer;
@@ -389,7 +389,7 @@ iframe {
   width: 32px;
   height: 32px;
   border-radius: 4px;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-style: normal;
 }
 .slick-arrow:before {
@@ -402,7 +402,7 @@ iframe {
   content: "\f053";
   width: 20px;
   height: 20px;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
@@ -412,7 +412,7 @@ iframe {
   content: "\f054";
   width: 20px;
   height: 20px;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
