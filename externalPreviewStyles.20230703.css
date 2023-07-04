@@ -305,15 +305,6 @@ iframe {
 .jampp__Ad__Content {
   pointer-events: none;
 }
-.jampp__Ad__Banner__320__Max__Height {
-  max-height: 165px;
-}
-.jampp__Ad__Banner__50__Max__Height {
-  max-height: 38px;
-}
-.jampp__Ad__Banner__90__Max__Height {
-  max-height: 43px;
-}
 .jampp__Iframe__Device__Scale {
   transform: scale(0.7);
   -ms-transform: scale(0.7);
