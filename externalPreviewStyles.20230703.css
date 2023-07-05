@@ -107,7 +107,7 @@ iframe {
 .jampp__Preview__Info__Icon {
   width: 12px;
   height: 16px;
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 11.5px;
@@ -279,7 +279,7 @@ iframe {
 .jampp__Reload__Frame__Icon {
   width: 12px;
   height: 16px;
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: 900;
   cursor: pointer;
@@ -304,6 +304,15 @@ iframe {
 }
 .jampp__Ad__Content {
   pointer-events: none;
+}
+.jampp__Ad__Banner__320__Max__Height {
+  max-height: 165px;
+}
+.jampp__Ad__Banner__50__Max__Height {
+  max-height: 38px;
+}
+.jampp__Ad__Banner__90__Max__Height {
+  max-height: 43px;
 }
 .jampp__Iframe__Device__Scale {
   transform: scale(0.7);
@@ -378,7 +387,6 @@ iframe {
   width: 32px;
   height: 32px;
   border-radius: 4px;
-  font-family: 'Font Awesome 5 Free';
   font-style: normal;
 }
 .slick-arrow:before {
@@ -387,26 +395,22 @@ iframe {
 .slick-arrow:hover {
   background: #fbfbfd;
 }
-/* .slick-arrow.slick-prev:before {
-  content: '\f053';
-  width: 20px;
-  height: 20px;
-  font-family: 'Font Awesome 5 Free';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 20px;
-}
-.slick-arrow.slick-next:before {
-  content: '\f054';
-  width: 20px;
-  height: 20px;
-  font-family: 'Font Awesome 5 Free';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 20px;
-} */
 .slick-arrow.slick-disabled {
   display: none !important;
+}
+.slick-prev:before {
+  content: "\f104";
+  font: 20px 'FontAwesome';
+  font: 'FontAwesome';
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+}
+.slick-next:before {
+  content: "\f105";
+  font: 20px 'FontAwesome';
+  font: 'FontAwesome';
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
 }
