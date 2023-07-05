@@ -387,7 +387,7 @@ iframe {
 .slick-arrow:hover {
   background: #fbfbfd;
 }
-.slick-arrow.slick-prev:before {
+/* .slick-arrow.slick-prev:before {
   content: '\f053';
   width: 20px;
   height: 20px;
@@ -406,7 +406,7 @@ iframe {
   font-weight: 900;
   font-size: 16px;
   line-height: 20px;
-}
+} */
 .slick-arrow.slick-disabled {
   display: none !important;
 }
