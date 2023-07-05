@@ -388,7 +388,7 @@ iframe {
   background: #fbfbfd;
 }
 .slick-arrow.slick-prev:before {
-  content: "\f053";
+  content: '\f053';
   width: 20px;
   height: 20px;
   font-family: 'Font Awesome 5 Free';
@@ -398,7 +398,7 @@ iframe {
   line-height: 20px;
 }
 .slick-arrow.slick-next:before {
-  content: "\f054";
+  content: '\f054';
   width: 20px;
   height: 20px;
   font-family: 'Font Awesome 5 Free';
