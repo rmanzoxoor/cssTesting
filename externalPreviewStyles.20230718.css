@@ -414,6 +414,10 @@ iframe {
   font-weight: 900;
   line-height: 20px;
 }
+.jampp__Body__Content--adBlockDetected {
+  display: flex;
+  justify-content: center;
+}
 .jampp__GlobalMessage {
   display: flex;
   align-items: center;
