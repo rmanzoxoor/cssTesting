@@ -1,0 +1,433 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+iframe {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-weight: inherit;
+  outline: none;
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+.jampp__Body {
+  background-color: #ffff;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+}
+.jampp__Body__Header {
+  height: 104px;
+  background-color: #ffff;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.jampp__Header__Logo {
+  width: 123px;
+  height: 41px;
+}
+.jampp__Body__Content {
+  opacity: 0;
+  background: #eff0f5;
+  position: absolute;
+  z-index: 0;
+  top: 104px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0px;
+  overflow: auto;
+}
+.jampp__CTA__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 60px;
+}
+.jampp__Carousel__Container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.jampp__Preview {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.jampp__Preview__Title {
+  font-family: 'Arimo', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.jampp__Preview__Tooltip .jampp__Preview__Tooltiptext {
+  font-family: 'Arimo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  visibility: hidden;
+  width: 299px;
+  height: 18px;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  background: #65686f;
+  border-radius: 4px;
+  top: 22px;
+  left: 42%;
+  position: absolute;
+  z-index: 1;
+}
+.jampp__Preview__Tooltip:hover .jampp__Preview__Tooltiptext {
+  visibility: visible;
+}
+.jampp__Preview__Info__Icon {
+  width: 12px;
+  height: 16px;
+  font-family: 'Arimo', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 11.5px;
+  line-height: 16px;
+  color: #999999;
+  cursor: pointer;
+}
+.jampp__CTA__Buttons {
+  display: flex;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  gap: 8px;
+}
+.jampp__Device__CTA--ios {
+  width: 53px;
+  height: 28px;
+}
+.jampp__Device__CTA--android {
+  width: 74px;
+  height: 28px;
+}
+.jampp__Device__CTA--android:hover,
+.jampp__Device__CTA--ios:hover {
+  cursor: pointer;
+}
+.jampp__Active__CTA {
+  background: #ffffff;
+  border: 2px solid #1261e4;
+  color: #1261e4;
+  border-radius: 56px;
+}
+.jampp__Inactive__CTA {
+  background: #fbfbfd;
+  border: 2px dashed #9a9ea9;
+  color: #9a9ea9;
+  border-radius: 56px;
+}
+.jampp__Carousel {
+  margin-top: 25px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  max-width: 1240px;
+}
+.jampp__Slick__Frame__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.jampp__Device {
+  position: relative;
+}
+.jampp__Device__Orientation--landscape {
+  transform: rotate(-90deg);
+}
+.jampp__Device__Skeleton {
+  display: flex;
+  max-width: 100%;
+}
+.jampp__Square__Ios__Device__Background {
+  position: absolute;
+  width: 222px;
+  height: 393px;
+  background-color: white;
+  top: 12.4%;
+  right: 6%;
+  z-index: 0;
+  overflow: hidden;
+}
+.jampp__Square__Ios__Device__Landscape {
+  width: 393px;
+  height: 222px;
+  top: 28.7%;
+  right: -27%;
+}
+.jampp__Square__Android__Device__Background {
+  position: absolute;
+  width: 227px;
+  height: 422px;
+  background-color: white;
+  top: 10%;
+  right: 5.1%;
+  z-index: 0;
+  overflow: hidden;
+}
+.jampp__Square__Android__Device__Landscape {
+  width: 422px;
+  height: 227px;
+  top: 27.5%;
+  right: -35.5%;
+}
+.jampp__Tablet__Ios__Skeleton {
+  display: flex;
+  width: 100%;
+}
+.jampp__Tablet__Android__Skeleton {
+  display: flex;
+  width: 100%;
+}
+.jampp__Square__Ios__Tablet__Background {
+  position: absolute;
+  width: 323px;
+  height: 432px;
+  background-color: white;
+  top: 8.5%;
+  right: 5.5%;
+  z-index: 0;
+  overflow: hidden;
+}
+.jampp__Square__Ios__Tablet__Landscape {
+  width: 430px;
+  height: 323px;
+  top: 18.9%;
+  right: -9.3%;
+}
+.jampp__Square__Android__Tablet__Background {
+  position: absolute;
+  width: 315px;
+  height: 410px;
+  background-color: white;
+  top: 10%;
+  right: 5.3%;
+  z-index: 0;
+  overflow: hidden;
+}
+.jampp__Square__Android__Tablet__Landscape {
+  width: 420px;
+  height: 312px;
+  top: 19.3%;
+  right: -8.3%;
+}
+.jampp__Ad__Description {
+  width: 133px;
+  font-family: 'Arimo', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #777777;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.jampp__Row__Description {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Arimo', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.jampp__Reload__Ad__Frame {
+  color: #1261e4;
+  font-family: 'Arimo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.jampp__Reload__Ad__Frame:hover {
+  color: #0342a7;
+  cursor: pointer;
+}
+.jampp__Reload__Frame__Icon {
+  width: 12px;
+  height: 16px;
+  font-family: 'Arimo', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.icon-flipped {
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+}
+.jampp__Center__Alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jampp__Top__Alignment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.jampp__Ad__Content {
+  pointer-events: none;
+}
+.jampp__Ad__Banner__320__Max__Height {
+  max-height: 165px;
+}
+.jampp__Ad__Banner__50__Max__Height {
+  max-height: 38px;
+}
+.jampp__Ad__Banner__90__Max__Height {
+  max-height: 43px;
+}
+.jampp__Iframe__Device__Scale {
+  transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+}
+.jampp__Iframe__Device__Scale__Top__Padding {
+  transform-origin: top;
+  transform: scale(0.65);
+  -ms-transform: scale(0.65);
+  -webkit-transform: scale(0.65);
+}
+.jampp__Iframe__Device__Scale__Top {
+  transform-origin: top;
+  transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+}
+.jampp__Iframe__Device__Scale__Landscape {
+  transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+}
+.jampp__Iframe__Tablet__Scale {
+  transform: scale(0.42);
+  -ms-transform: scale(0.42);
+  -webkit-transform: scale(0.42);
+}
+.jampp__Iframe__Tablet__Scale__Top__Ios {
+  transform-origin: top;
+  transform: scale(0.41);
+  -ms-transform: scale(0.41);
+  -webkit-transform: scale(0.41);
+}
+.jampp__Iframe__Tablet__Scale__Top__Android {
+  transform-origin: top;
+  transform: scale(0.39);
+  -ms-transform: scale(0.39);
+  -webkit-transform: scale(0.39);
+}
+.jampp__Iframe__Tablet__Scale__Ios__Landscape {
+  transform: scale(0.42);
+  -ms-transform: scale(0.42);
+  -webkit-transform: scale(0.42);
+}
+.jampp__Iframe__Tablet__Scale__Android__Landscape {
+  transform: scale(0.41);
+  -ms-transform: scale(0.41);
+  -webkit-transform: scale(0.41);
+}
+.jampp__Carousel__With__One__Device {
+  display: flex;
+  justify-content: center;
+  min-width: 530px;
+}
+.jampp__Carousel__With__More__Than__One__Device {
+  min-width: 1240px;
+}
+.jampp__Remove__Element {
+  display: none;
+}
+
+.slick-slide {
+  margin: 10px;
+  outline: none;
+}
+.slick-arrow {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  font-style: normal;
+}
+.slick-arrow:before {
+  color: #444;
+}
+.slick-arrow:hover {
+  background: #fbfbfd;
+}
+.slick-arrow.slick-disabled {
+  display: none !important;
+}
+.slick-prev:before {
+  content: "\f104";
+  font: 20px 'FontAwesome';
+  font: 'FontAwesome';
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+}
+.slick-next:before {
+  content: "\f105";
+  font: 20px 'FontAwesome';
+  font: 'FontAwesome';
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+}
+.jampp__GlobalMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jampp__GlobalMessage__Content {
+  background: #fff;
+  color: #111;
+  position: relative;
+  width: 50%;
+  min-width: 640px;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+.jampp__GlobalMessage__Content p {
+  line-height: 1.4em;
+}
