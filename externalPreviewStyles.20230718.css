@@ -23,14 +23,12 @@ iframe {
   position: absolute;
   width: 100%;
   min-height: 100%;
-  display: none;
 }
 .jampp__Body--adBlockDetected {
   position: absolute;
   width: 100%;
   min-height: 100%;
   background: rgba(0,0,0,.7);
-  display: none;
 }
 .jampp__Body__Header {
   height: 104px;
